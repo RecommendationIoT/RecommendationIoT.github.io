@@ -5,7 +5,12 @@ This page contains all the material related to the paper: **" A dynamic graph da
 This paper is submitted to [Frontiers Journals](https://www.frontiersin.org/)
 
 
-### Support or Contact
+## Realated Material
+This section will be updated soon...
+
+
+
+## Support or Contact
 - Official site of [BigClouT Project](http://bigclout.eu/)
 - Antonios Litke: litke - at - mail.ntua.gr
 - George Palaiokrassas : geopal - at - mail.ntua.gr
