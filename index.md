@@ -6,7 +6,7 @@ This paper is submitted to [Frontiers Journals](https://www.frontiersin.org/)
 
 
 ### Support or Contact
-[BigClouT Porject](http://bigclout.eu/)
-Antonios Litke: litke - at - mail.ntua.gr
-George Palaiokrassas : geopal - at - mail.ntua.gr
+- [BigClouT Porject](http://bigclout.eu/)
+- Antonios Litke: litke - at - mail.ntua.gr
+- George Palaiokrassas : geopal - at - mail.ntua.gr
 
