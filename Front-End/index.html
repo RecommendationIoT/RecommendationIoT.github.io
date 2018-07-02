@@ -1,0 +1,96 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="functions.js"></script>
+<script>
+  $( function() {
+    $( document ).tooltip();
+  } );
+</script>
+<title>BigClout Recommendation Portal</title>
+<link rel="icon" type="image/png" href="http://bigclout.eu/upload/bigclout/website/Logo-BIGCLOUT_web.png" />
+<link rel="shortcut icon" href="http://bigclout.eu/upload/bigclout/website/Logo-BIGCLOUT_web.png" />
+</head>
+<body>
+<div id="header">
+        <a href="#" id="logo"></a>
+        <span id="main_menu">
+                <span class="main_menu_option" onClick="window.location.href='#'; return 0;" >Home</span>
+                <span class="main_menu_option" onClick="window.location.href='#'; return 0;" >Demo</span>
+                <span class="main_menu_option" onClick="window.location.href='http://bigclout.eu/'; return 0;" >Project Page</span>
+                <span class="main_menu_option" onClick="$('#about').toggle(); return 0;" >About</span>
+        </span>
+</div>
+<div id="content">
+        <div id="main-content">
+                 <div class="text-content">
+                        This interface serves the needs of Neo4J users for the BigClouT platform. <br>
+                        It has three main functions: <br>
+                        (a) "Preferences for a specific user",<br>
+                        (b) "Ratings for a specific date and time" and <br>
+                        (c) "Recommendations". <br>
+                        Option (a) will display the preferences of the user which has the Name provided in the form. <br>
+                        Option (b) will display the preferences of the users for the specified day and time. <br>
+                        Option (c) will display a ranked set of recommendations, based on both the Name, the day and the time specified in the form, by comparing the choices of the other users registered in our database.
+                </div>
+                <div class="query-area">
+                        <div class="form">
+                                <div class="form-input">
+                                        <span class="input-label">Function</span>
+                                        <select class="input-select" id="function-select" name="function">
+                                          <option value="user" selected="selected">Preferences for a specific user</option>
+                                          <option value="datetime">Ratings for a specific date and time</option>
+                                          <option value="recommendations">Recommendations</option>
+                                        </select>
+                                </div>
+                                <span class="form-division"></span>
+                                <div class="form-input">
+                                        <span class="input-label">Name</span>
+                                        <input type="text" class="input-text" name="name" value="Celene Casey" />
+                                </div>
+                                <span class="form-division"></span>
+                                <div class="form-input" style="display:none">
+                                        <span class="input-label">Time and Date</span>
+                                        <input type="datetime-local" class="input-datetime" name="datetime" value="2017-01-03T12:00" />
+                                </div>
+                                <!--<div class="form-input">
+                                        <span class="input-label">Function</span>
+                                        <select class="input-select" name="parameter2">
+                                          <option value="user">Option 1</option>
+                                          <option value="Option 2">Option 2</option>
+                                          <option value="Option 3">Option 3</option>
+                                          <option value="Option 4">Option 4</option>
+                                        </select>
+                                </div>
+                                <span class="form-division"></span>
+                                <div class="form-input">
+                                        <span class="input-label">Parameter 3</span>
+                                        <div class="input-checkbox" name="parameter3">
+                                                <div class="checkbox-option"><input type="checkbox" value="Option 1"><span class="checkbox-label">Option 1</span></div>
+                                                <div class="checkbox-option"><input type="checkbox" value="Option 2"><span class="checkbox-label">Option 2</span></div>
+                                        </div>
+                                </div>-->
+                                <span class="form-division"></span>
+                                <div class="form-input">
+                                        <div class="form-submit">Submit Query</div>
+                                </div>
+                        </div>
+                        <div class="result"><span class="result-header">Query Result</span><span class="result-text"></span></div>
+                </div>
+        </div>
+</div>
+<div id="footer">
+</div>
+<div id="about" onClick="$('#about').toggle(); return 0;">
+        <div>
+                <h2> All About This Page.</h2>
+                <p>
+                        This page was created in the context of the BigClouT EU-JAPAN project, by the National Technical University of Athens.
+                </p>
+        </div>
+</div>
+</body>
+</html>
