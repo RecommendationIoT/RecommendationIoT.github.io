@@ -4,7 +4,7 @@ This page contains all the material related to the paper: **" A dynamic graph da
 
 
 ## Realated Material
-This section will be updated soon...
+The source code of the Recommendation System can be downloaded from the [Github page](https://github.com/RecommendationIoT/RecommendationIoT.github.io)
 
 
 
